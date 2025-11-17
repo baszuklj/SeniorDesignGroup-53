@@ -56,8 +56,9 @@ Backend (Flask)
         Windows: venv\Scripts\activate 
         Unix/MacOS: source venv/bin/activate 
 4.	Install dependencies: pip install -r requirements.txt 
-5.	Create a .env file with your API keys 
-6.	Run the command 'python -m uvicorn app.main:app --reload' to launch the application
+5.	Create a .env file with your API keys
+6.	Run the Flask app: python app.py
+7.	Run the command 'python -m uvicorn app.main:app --reload' to launch the application
  
 ```
 
